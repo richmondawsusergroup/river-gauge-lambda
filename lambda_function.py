@@ -1,5 +1,6 @@
 import requests
 import xmltodict
+import json
 
 def lambda_handler(event, context):
     r = requests.get('https://water.weather.gov/ahps2/hydrograph_to_xml.php?gage=rmdv2&output=xml')
@@ -7,5 +8,5 @@ def lambda_handler(event, context):
     data = dict['site']['observed']['datum'][000]['primary']['#text']
     return {
         'statusCode': 200,
-        'body': json.dumps(str(data))
+        'body': json.dumps(float(data))
     }
