@@ -1,0 +1,35 @@
+Conditions?
+  - casual boating
+      - 0-3 = "too shallow"
+      - 4-6 = "perfect"
+      - 7-8 = "a little high"
+      - 9-100 = "dangerous"
+  - whitewhater boating
+      - 0-3 = "not applicable"
+      - 4-7 = "vanilla"
+      - 8-100 = "optimal"
+  - drunk tubing
+      - 0-3 = "not fun"
+      - 4-7 = "perfect"
+      - 8-100 = "dangerous"
+
+Caveats?
+    - "life jacket required"
+    - "permit required. Call 646-8296 to get one."
+    
+Hydraulics:
+    - 6: [ "boshers", "z dam", "pipeline" ]
+    - 7: [ "boshers", "z dam", "hollywood" ]
+    - 7: [ "boshers", "z dam", "pipeline" ]
+
+Routes:
+    - How much time do you have?
+    - Kayaking?
+    - River Height
+    - <calculate route>
+
+James River facts!
+    - nature fact:
+    - history fact:
+    - stupid fact:
+    
